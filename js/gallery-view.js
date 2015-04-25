@@ -25,8 +25,6 @@ $(function(){
     }
   };
 
-  $(document).on('new_post', toggle_gview);
-
   var gallery_opened = false;
 
   var handle_click = function(e) {
